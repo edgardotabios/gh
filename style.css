@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #f8f9fa;
+}
+h1, h2, h3, h4 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+p {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Header */
+/* Navigation */
+.header {
+    background-color: #dfdfdf;
+    display: flex;
+    margin: 0;
+    padding: 8px;
+}
+
+.nav{
+    width: 50%;
+}
+
+.header nav{
+    flex: 1;
+}
+
+.header nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li{
+    padding: 0 10px;
+}
+.header nav span{
+    position: relative;
+    top: -1.5px;
+    padding: 0 10px;
+}
+
+.header nav ul li a, .nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+/* End of Header Navigation */
+
+/* Main Body */
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.container1{
+    flex: 1;
+}
+
+.container2{
+    flex: 3;
+}
+
+
